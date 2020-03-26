@@ -17,7 +17,9 @@ Concluded that best approach was to use the reacstrap Bootstrap tables and add n
 <li>Row delete is accomplished with a Button above the table. All selected entries are deleted when this button is pressed. REST calls can be inserted in the class method "onDeleteWidgetRow"</li>
 <li>Included a Reset Button to reset row indices if needed starting with index = 1</li>
 </ol>
-
+<p>
+Note that pagination was not needed for this project; however, this may be added in the future. Reactstrap has pagination features (since this is an extension of Boostrap to ReactJS).
+</p>
 <p>
 Note that the component Page.js is not included here. If anyone wants to use this table, it is suggested they copy the FunctionalTablePage class into their application and replace the Page component with their own component. Also, REST calls with Axios are not included here since these can be very application specific and this author typically places Axios REST calls in service.js file (in a utils folder). 
 </p><p>
