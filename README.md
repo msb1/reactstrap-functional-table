@@ -23,5 +23,5 @@ Note that pagination was not needed for this project; however, this may be added
 <p>
 Note that the component Page.js is not included here. If anyone wants to use this table, it is suggested they copy the FunctionalTablePage class into their application and replace the Page component with their own component. Also, REST calls with Axios are not included here since these can be very application specific and this author typically places Axios REST calls in service.js file (in a utils folder). 
 </p><p>
-Hope this is helpful to other using Reactstrap and wanting a functional table implementation.
+Hope this is helpful to others using Reactstrap and wanting a functional table implementation.
 </p>
