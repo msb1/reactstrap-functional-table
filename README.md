@@ -8,7 +8,7 @@ In prior Bootstrap projects, without ReactJS, used Datatables (https://www.datat
 </p><p>
 Next considered react-bootstrap-tables which has been deprecated and replaced by react-bootstrap-tables-next (https://react-bootstrap-table.github.io/react-bootstrap-table2/). This is a really nice API but the creator has not had adequate time to support the newer version (as this is not his primary occupation - totally understandable.) Consequently, when implementing react-bootstrap-tables-next, it became apparent that a considerable amount of the implementation needed to be written - so the utility of react-bootstrap-tables-next was far less than originally anticipated. 
 </p><p>
-Concluded that best approach was to use the reacstrap Bootstrap tables and add needed functionality:
+Concluded that best approach was to use the reactstrap Bootstrap tables and add needed functionality:
 </p>
 <ol>
 <li>Cell editing is enabled with html contentEditable=true for appropriate table cells. However, this requires a check on whether the table cell value actually changed since an onBlur event is fired when traversing through each cell whether a change is made or not. This check is needed since the tab key allows rapid traversal of table cells. A REST call to save the updates can be inserted in the class method "onWidgetChange"</li>
